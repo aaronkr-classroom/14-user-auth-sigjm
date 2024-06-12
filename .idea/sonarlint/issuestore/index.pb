@@ -83,3 +83,17 @@ w
 G.idea/sonarlint/issuestore/4/9/496a238a6afa168dbaf6efd37bb459331589579c,6\e\6e9644ddf83ab52f39902ecdbfdf4118285ac40c
 w
 G.idea/sonarlint/issuestore/9/a/9a64d8c848e09cd674b897b47e79fb5f60767605,8\f\8f83300d8594515f5e0f3e83ad397e6d4bb23aea
+]
+-lesson-23/controllers/usersController.TODO.js,8\0\80637182483ae9f9b36853f0c4cb771d13252421
+C
+lesson-23/readme.md,2\e\2e0f8d9398617e49cc056dc1910a515c42ae6863
+M
+lesson-23/models/User.TODO.js,8\c\8c419340c92d0158314ec6f915fa8e5d2223cf46
+X
+(lesson-23/controllers/usersController.js,1\c\1cfd52d7e69637afe3ae283f359814c567255ec0
+@
+lesson-23/app.js,3\3\33b27a04e0438deca986a507b16f553aa0752ec3
+O
+lesson-24/views/users/login.ejs,2\4\248004bd82b7e6f566a974ab9cf5c20f68ff40cd
+H
+lesson-23/models/User.js,a\c\acee4cc1eacbed1eff67fa71310b3e87c04570c3
