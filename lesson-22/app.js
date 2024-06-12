@@ -35,11 +35,33 @@ router.use(
  * @TODO: Listing 22.1 (p. 325)
  * app.js에서의 플래시 메시지 요청
  */
+const expressSession = require("express-session"),
+    cookieParser = require("cookie-parser"),
+    connectFlash = require("connect-flash");
 
+
+router.use(cookieParser("secret_passcode")); // cookie-parser 미들웨어를 사용하고 비밀 키를 전달
+router.use(
+    expressSession({
+        // express-session 미들웨어를 사용
+        secret: "secret_passcode", // 비밀 키를 전달
+        cookie: {
+            maxAge: 4000000, // 쿠키의 유효 기간을 설정
+        },
+        resave: false, // 세션을 매번 재저장하지 않도록 설정
+        saveUninitialized: false, // 초기화되지 않은 세션을 저장하지 않도록 설정
+    })
+)
+router.use(connectFlash()); // connect-flash 미들웨어를 사용
 /**
  * @TODO: Listing 22.2 (p. 327)
  * 응답상에서 connectFlash와 미들웨어와의 연계
  */
+router.use((req, res, next) => {
+    res.locals.flashMessages =req.flash();
+    next();
+})
+
 
 /**
  * =====================================================================
@@ -48,18 +70,17 @@ router.use(
  */
 
 // 애플리케이션에 Mongoose 설정
-const mongoose = require("mongoose"), // mongoose를 요청
-  dbName = "aaronkr";
+const mongoose = require("mongoose"); // mongoose를 요청
 
-// 데이터베이스 연결 설정
-mongoose.connect(`mongodb://127.0.0.1:27017/${dbName}`, {
-  useNewUrlParser: true,
-});
+mongoose.connect(
+    "mongodb+srv://jmllem:J0Mr5PUxBlcrlDio@jmllem.f6uraub.mongodb.net/?retryWrites=true&w=majority&appName=Jmllem/ut-node", // 데이터베이스 연결 설정 atlas 경로
+);
+
 
 // 연결되면 메시지를 보냄
 const db = mongoose.connection;
 db.once("open", () => {
-  console.log(`Connected to ${dbName} MongoDB using Mongoose!`);
+  console.log(`Connected MongoDB using Mongoose!`);
 });
 
 /**
