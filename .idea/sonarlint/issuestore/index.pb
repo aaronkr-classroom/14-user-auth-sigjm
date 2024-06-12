@@ -3,18 +3,6 @@
 	readme.md,2\7\275d783e298228506068436512433d343feb52aa
 Z
 *lesson-22/controllers/coursesController.js,5\f\5f36b7215b74036b3f699da9c6fb63f21912f4a2
-]
--lesson-22/controllers/usersController.TODO.js,5\2\52fe58b533a092575f67bf4f6e53568b7243de79
-E
-lesson-22/app.TODO.js,9\f\9fd7c0438f35caca25914eac44ac74dcca2d325f
-E
-lesson-23/app.TODO.js,a\3\a32356b76398dddd10b08281b830c9357ccd3dea
-E
-lesson-24/app.TODO.js,9\8\98a1edbc7c29fc4ef124f4586c6abb594fdfbbe2
-O
-lesson-22/views/layout.TODO.ejs,8\8\88592fb0f4442897ec34a39295bd9cc28c60b528
-\
-,lesson-22/views/_partials/_flashMsg.TODO.ejs,a\f\af410d6f2553c3435b409a17348334cb4dd87514
 F
 lesson-22/package.json,f\0\f05fccb9b3504346cfec6483344649073e8bcf44
 @
@@ -83,12 +71,8 @@ w
 G.idea/sonarlint/issuestore/4/9/496a238a6afa168dbaf6efd37bb459331589579c,6\e\6e9644ddf83ab52f39902ecdbfdf4118285ac40c
 w
 G.idea/sonarlint/issuestore/9/a/9a64d8c848e09cd674b897b47e79fb5f60767605,8\f\8f83300d8594515f5e0f3e83ad397e6d4bb23aea
-]
--lesson-23/controllers/usersController.TODO.js,8\0\80637182483ae9f9b36853f0c4cb771d13252421
 C
 lesson-23/readme.md,2\e\2e0f8d9398617e49cc056dc1910a515c42ae6863
-M
-lesson-23/models/User.TODO.js,8\c\8c419340c92d0158314ec6f915fa8e5d2223cf46
 X
 (lesson-23/controllers/usersController.js,1\c\1cfd52d7e69637afe3ae283f359814c567255ec0
 @
@@ -97,3 +81,13 @@ O
 lesson-24/views/users/login.ejs,2\4\248004bd82b7e6f566a974ab9cf5c20f68ff40cd
 H
 lesson-23/models/User.js,a\c\acee4cc1eacbed1eff67fa71310b3e87c04570c3
+X
+(lesson-24/public/js/jquery-3.7.0.slim.js,1\6\166ff0486075a59ff2ad8c508dd4bdd5c29661af
+U
+%lesson-24/views/_partials/_header.ejs,b\8\b8301cdeb41ccc1afd326e115275c8f8ef285329
+X
+(lesson-24/controllers/usersController.js,a\4\a4ab7dfc521988c20bf7922a17ef3d2a11fee529
+H
+lesson-24/models/User.js,e\a\ea4ca5b8b4cfc8524b842425a96c4a95d7552472
+@
+lesson-24/app.js,b\b\bb3f681b2cbb4b8fb340ce6b8caa69b8af238b4c
